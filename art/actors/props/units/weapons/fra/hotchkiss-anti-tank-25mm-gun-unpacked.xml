@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Citroen type 45 supplies">
+      <mesh>props/units/weapons/fra/hotchkiss-anti-tank-25mm-gun-unpacked.dae</mesh>
+      <props>
+        <prop actor="units/fra/hotchkiss-anti-tank-25mm-gun-unpacked-crewman.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="vehicles/fra/laffly-v15.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant frequency="0" name="Death">
+      <mesh>props/units/weapons/fra/hotchkiss-anti-tank-25mm-gun-unpacked-dead.dae</mesh>
+      <textures>
+        <texture file="vehicles/fra/laffly-v15-dead.png" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

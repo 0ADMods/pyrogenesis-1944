@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Breguet br693">
+      <mesh>vehicles/fra/breguet-br693.dae</mesh>
+      <textures>
+        <texture file="vehicles/fra/breguet-br693.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

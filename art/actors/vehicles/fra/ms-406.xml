@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Potez 25">
+      <mesh>vehicles/fra/ms-406.dae</mesh>
+      <props>
+      </props>
+      <textures>
+        <texture file="vehicles/fra/ms-406.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

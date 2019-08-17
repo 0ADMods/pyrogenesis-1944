@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Citroen type 45">
+      <mesh>vehicles/fra/citroen-type-45.dae</mesh>
+      <props>
+        <prop actor="props/vehicles/fra/hotchkiss-anti-aircraft-25mm-gun-packed.xml" attachpoint="carriage-01"/>
+      </props>
+      <textures>
+        <texture file="vehicles/fra/norm/citroen-type-45.png" name="normTex"/>
+        <texture file="vehicles/fra/spec/citroen-type-45.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Grey">
+      <textures>
+        <texture file="vehicles/fra/citroen-type-45_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Green">
+      <textures>
+        <texture file="vehicles/fra/citroen-type-45_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Citroen type 45"/>
+    <variant frequency="1" name="Citroen type 45 with cover">
+      <props>
+        <prop actor="props/vehicles/fra/citroen-type-45-cover.xml" attachpoint="cover"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Citroen type 45 with supplies">
+      <props>
+        <prop actor="props/vehicles/fra/citroen-type-45-supplies.xml" attachpoint="supplies"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant frequency="0" name="Death">
+      <mesh>vehicles/fra/citroen-type-45-dead.dae</mesh>
+      <props>
+        <prop actor="" attachpoint="cover"/>
+        <prop actor="" attachpoint="supplies"/>
+        <prop actor="" attachpoint="carriage-01"/>
+      </props>
+      <textures>
+        <texture file="vehicles/fra/citroen-type-45-dead.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_parallax_spec.xml</material>
+</actor>

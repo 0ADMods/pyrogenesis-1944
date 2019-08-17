@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Somua MCG">
+      <mesh>vehicles/fra/somua-mcg.dae</mesh>
+      <props>
+        <prop actor="units/fra/somua-mcg-crewmen.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="vehicles/fra/somua-mcg.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+    <group>
+    <variant frequency="1" name="Idle"/>
+    <variant frequency="0" name="Death">
+      <mesh>vehicles/fra/somua-mcg-dead.dae</mesh>
+      <textures>
+        <texture file="vehicles/fra/somua-mcg-dead.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

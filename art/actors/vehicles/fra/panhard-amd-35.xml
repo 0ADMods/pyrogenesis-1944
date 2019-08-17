@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Panhard AMD 35">
+      <mesh>vehicles/fra/panhard-amd-35.dae</mesh>
+      <textures>
+        <texture file="vehicles/fra/panhard-amd-35.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+    <group>
+    <variant frequency="1" name="Idle"/>
+    <variant frequency="0" name="Death">
+      <mesh>vehicles/fra/panhard-amd-35-dead.dae</mesh>
+      <textures>
+        <texture file="vehicles/fra/panhard-amd-35-dead.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Radar crewmen">
+      <mesh>units/fra/somua-mcg-crewmen.dae</mesh>
+      <textures>
+        <texture file="units/fra/soldier.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant frequency="0" name="Death">
+      <mesh>units/fra/somua-mcg-crewmen.dae</mesh>
+      <textures>
+        <texture file="units/fra/soldier-dead.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

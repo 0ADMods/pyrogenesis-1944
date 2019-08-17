@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Citroen type 45 supplies">
+      <mesh>props/units/weapons/fra/1937-anti-tank-47mm-gun-unpacked.dae</mesh>
+      <props>
+        <prop actor="units/fra/1937-anti-tank-47mm-gun-unpacked-crewman.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="props/units/weapons/fra/75-model-1897.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Hotchkiss H39">
+      <mesh>vehicles/fra/hotchkiss-h39.dae</mesh>
+      <textures>
+        <texture file="vehicles/fra/hotchkiss-h35.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+    <group>
+    <variant frequency="1" name="Idle"/>
+    <variant frequency="0" name="Death">
+      <mesh>vehicles/fra/hotchkiss-h39-dead.dae</mesh>
+      <textures>
+        <texture file="vehicles/fra/hotchkiss-h35-dead.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

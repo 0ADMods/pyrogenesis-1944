@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Citroen type 45 supplies">
+      <mesh>props/vehicles/fra/hotchkiss-anti-aircraft-25mm-gun-packed.dae</mesh>
+      <textures>
+        <texture file="props/units/weapons/fra/hotchkiss-anti-aircraft-25mm-gun.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant frequency="0" name="Death">
+      <textures>
+        <texture file="props/units/weapons/fra/hotchkiss-anti-aircraft-25mm-gun-dead.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

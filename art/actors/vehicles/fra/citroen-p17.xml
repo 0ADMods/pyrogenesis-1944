@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Citroen P17">
+      <mesh>vehicles/fra/citroen-p17.dae</mesh>
+      <props>
+        <prop actor="units/fra/citroen-p17-crewman.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="vehicles/fra/citroen-p17.png" name="baseTex"/>
+        <texture file="vehicles/fra/norm/citroen-p17.png" name="normTex"/>
+        <texture file="vehicles/fra/spec/citroen-p17.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_parallax_spec.xml</material>
+</actor>

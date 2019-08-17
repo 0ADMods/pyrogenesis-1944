@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Radar">
+      <mesh>props/units/weapons/fra/1897-model-anti-tank-75mm-gun-unpacked.dae</mesh>
+      <props>
+        <prop actor="units/fra/1897-model-anti-tank-75mm-gun-crewman.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="props/units/weapons/fra/75-model-1897.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant frequency="0" name="Death">
+      <mesh>props/units/weapons/fra/1897-model-anti-tank-75mm-gun-unpacked-dead.dae</mesh>
+      <textures>
+        <texture file="props/units/weapons/fra/75-model-1897-dead.png" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

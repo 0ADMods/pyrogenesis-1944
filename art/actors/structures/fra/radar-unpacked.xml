@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Radar">
+      <mesh>structures/fra/radar-unpacked.dae</mesh>
+      <props>
+        <prop actor="units/fra/radar-unpacked-crewmen.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structures/fra/radar.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant frequency="0" name="Death">
+      <mesh>structures/fra/radar-unpacked-dead.dae</mesh>
+      <textures>
+        <texture file="structures/fra/radar-dead.png" name="baseTex"/>
+      </textures>
+      <props>
+        <prop actor="" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>
