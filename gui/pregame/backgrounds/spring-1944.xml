@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sprites>
+  <sprite name="spring-1944-01">
+    <image texture="pregame/backgrounds/spring-1944-01.png" fixed_h_aspect_ratio="2" round_coordinates="false" />
+  </sprite>
+</sprites>
