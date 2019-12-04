@@ -5,6 +5,11 @@
 - Spring 1944 for the models and textures https://github.com/spring1944
 - Stan for the adaptation, the actors, and the new textures.
 
+### Music
+
+- Main menu theme: https://opengameart.org/content/loading-screen-loop
+- Battle theme: https://opengameart.org/content/battle-theme-a
+
 ## Original Credits
 
 Spring: 1944 is a World War Two themed Real Time Strategy game built upon the Spring Engine.
