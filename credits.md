@@ -29,7 +29,7 @@ Developers:
 Contributors:
 | Name |Contribution Area|
 |------|----------|
-| Dash_Riprock |3D Models| |
+| Dash_Riprock |3D Models|
 | Rattle| 2D Artwork, Advising, German Voice Coach |
 | Quantum| Scripting |
 | Gnomre| Advising, Rivalry |
