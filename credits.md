@@ -27,7 +27,8 @@ Developers:
 |Tobi | Programmer | Dutch |AI Coding, Scripting, Engine Code
 
 Contributors:
-| Name |Contribution Area |
+
+| Name | Contribution Area |
 |------|------------------|
 | Dash_Riprock | 3D Models|
 | Rattle| 2D Artwork, Advising, German Voice Coach |
