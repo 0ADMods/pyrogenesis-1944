@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/plane">
+  <Identity>
+    <SpecificName>Bloch MB.152</SpecificName>
+    <Tooltip>A low-wing monoplane fighter aircraft.</Tooltip>
+    <Icon>vehicles/fra/mb-152.png</Icon>
+    <History>The MB.150 was originally developed to conform with the requirements of the 1934 French Air Ministry competition seeking a new fighter design. Despite the competition being won by the competing Morane-Saulnier M.S.406, it was decided to proceed with development. Initially proving unable to attain flight, the modified prototype conducted its maiden flight in October 1937. Service trials of the MB.150 determined the aircraft to hold sufficient promise to warrant further work, leading to the adoption of an expanded and strengthened wing and a more refined Gnome-Rhone 14N-7 engine. During spring 1938, following the completion of further proving trials, an order for a pre-production batch of 25 aircraft was placed.</History>
+    <Formations datatype="tokens" replace=""/>
+  </Identity>
+  <VisualActor>
+    <Actor>vehicles/fra/mb-152.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/plane">
+  <Identity>
+    <SpecificName>Potez 25</SpecificName>
+    <Tooltip>A twin-seat, single-engine biplane.</Tooltip>
+    <Icon>vehicles/fra/potez-25.png</Icon>
+    <History>Potez 25 (also written as Potez XXV) was a French during the 1920s, a multi-purpose fighter-bomber, it was designed as a line aircraft and used in a variety of roles, including fighter and escort missions, tactical bombing and reconnaissance missions. In the late 1920s and early 1930s, Potez 25 was the standard multi-purpose aircraft of over 20 air forces, including French, Polish and American. It was also popular among private operators, notably mail transport companies. </History>
+    <Formations datatype="tokens" replace=""/>
+  </Identity>
+  <VisualActor>
+    <Actor>vehicles/fra/potez-25.xml</Actor>
+  </VisualActor>
+</Entity>

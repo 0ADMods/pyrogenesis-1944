@@ -3,7 +3,6 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Radar crewmen">
-
       <props>
         <prop actor="props/units/weapons/fra/mas-36-rifle.xml" attachpoint="weapon_R"/>
       </props>

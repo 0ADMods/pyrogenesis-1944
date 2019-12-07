@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/plane">
+  <Identity>
+    <SpecificName>Bréguet 693</SpecificName>
+    <Tooltip>A light twin-engine ground-attack aircraft.</Tooltip>
+    <Icon>vehicles/fra/breguet-br693.png</Icon>
+    <History>The Bréguet 690 and its derivatives were a series of light twin-engine ground-attack aircraft that were used by the French Air Force in World War II. The aircraft was intended to be easy to maintain, forgiving to fly, and capable of 480 km/h (300 mph) at 4,000 m (13,120 ft). The type's sturdy construction was frequently demonstrated and the armament was effective. However, French rearmament began two full years later than that in Britain, and none of these aircraft were available in sufficient numbers to make a difference in 1940.</History>
+    <Formations datatype="tokens" replace=""/>
+  </Identity>
+  <VisualActor>
+    <Actor>vehicles/fra/breguet-br693.xml</Actor>
+  </VisualActor>
+</Entity>

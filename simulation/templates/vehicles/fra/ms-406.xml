@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/plane">
+  <Identity>
+    <SpecificName>Morane-Saulnier M.S.406</SpecificName>
+    <Tooltip>A light twin-engine ground-attack aircraft.</Tooltip>
+    <Icon>vehicles/fra/ms-406.png</Icon>
+    <History>In response to a requirement for a fighter issued by the French Air Force in 1934, Morane-Saulnier built a prototype, designated MS.405, of mixed materials. This had the distinction of being the company's first low-wing monoplane, as well as the first to feature an enclosed cockpit, and the first design with a retracting undercarriage. The entry to service of the M.S.406 to the French Air Force in early 1939 represented the first modern fighter aircraft to be adopted by the service.[2] Although a sturdy and highly manoeuvrable fighter aircraft,[3] it was considered underpowered and weakly armed when compared to its contemporaries. Most critically, the M.S.406 was outperformed by the Messerschmitt Bf 109E during the Battle of France.</History>
+    <Formations datatype="tokens" replace=""/>
+  </Identity>
+  <VisualActor>
+    <Actor>vehicles/fra/ms-406.xml</Actor>
+  </VisualActor>
+</Entity>
