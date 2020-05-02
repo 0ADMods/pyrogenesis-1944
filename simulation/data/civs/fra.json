@@ -1,0 +1,39 @@
+{
+    "AINames": [
+        "Maurice Gamelin",
+        "Charles de Gaulle",
+        "Maxime Weygand",
+        "Jean de Lattre de Tassigny"
+    ],
+    "Code": "fra",
+    "Culture": "european",
+    "Emblem": "session/portraits/emblems/france.png",
+    "Factions": [],
+    "CivBonuses": [],
+    "History": "",
+    "Music": [],
+    "Name": "France",
+    "Formations": [
+        "special/formations/null",
+        "special/formations/box",
+        "special/formations/column_closed",
+        "special/formations/line_closed",
+        "special/formations/column_open",
+        "special/formations/line_open",
+        "special/formations/flank",
+        "special/formations/battle_line",
+        "special/formations/skirmish",
+        "special/formations/wedge"
+    ],
+    "SelectableInGameSetup": true,
+    "SkirmishReplacements": {
+        "skirmish/units/default_infantry_ranged_b": "units/{civ}/infantry_rifleman_b",
+        "skirmish/units/default_support_female_citizen": "units/{civ}/infantry_rifleman_b",
+        "skirmish/structures/default_civil_centre": "units/{civ}/infantry_rifleman_b",
+        "skirmish/units/default_cavalry": "units/{civ}/infantry_rifleman_b",
+        "skirmish/units/default_infantry_melee_b": "units/{civ}/infantry_rifleman_b"
+    },
+    "StartEntities": [],
+    "Structures": [],
+    "TeamBonuses": []
+}
